@@ -1,0 +1,88 @@
+body {
+    background-image: url("background/kobato.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: azure;   
+}
+
+#content {
+    width: 500px;
+    height: 100%;
+
+    background-color: rgba(30, 30, 30, 0.3);
+}
+
+#content-box {
+    position: relative;
+    top: 35%;
+    height: auto;
+    width: 100%;
+}
+
+#title {
+    width: 100%;
+    height: 80px;
+
+    font-size: 60px;
+    text-align: center;
+    color: azure;
+}
+
+#description {
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    height: auto;
+    
+    font-size: 18px;
+    font-family: "Noto Sans Japanese";
+    text-align: center;
+    color: azure;
+}
+
+#link-box {
+    margin-top: 30px;
+    height: 120px;
+    width: 100%;
+
+    color: azure;   
+
+    padding-left: 7%;
+    padding-right: 7%;    
+}
+
+.icon {
+    margin-right: 5px; 
+}
+
+.link {
+    height: 40px;
+    width: 25%;
+
+    float: left;
+
+    margin: 10px 1.8% 10px 1.8%;
+
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid azure;
+    border-radius: 30px;
+
+    -webkit-transition: color .5s linear, border-color 1s linear;
+}
+
+.link:hover {
+    color: #d1a0e8;
+    border: 1px solid #d1a0e8;
+}
